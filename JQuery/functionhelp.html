@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Content!</title>
+</head>
+<body>
+
+  <h1>Drink Selection!</h1>
+  <hr>
+
+  <!-- Here we create a generic drink-options div -->
+  <div id="drink-options"></div>
+
+  <script type="text/javascript">
+
+    // Array holds all of the drinks available
+  var text = "secret-text";
+
+  var scramble1 = "asdf";
+
+  var scramble2 = "zxcv";
+
+  var scrambled = scramble1 + text + scramble2;
+
+  //if i want to keep writing it make a function
+  function scrambleText(text) {
+
+    var scramble1= "asdf";
+    var scramble2 = "zxcv";
+
+    return scramble1 + text + scramble2;
+  }
+
+  $("secret-text").append("<div>" + scrambled + "</div>");
+
+
+
+    // ...
+
+  </script>
+
+</body>
+</html>
